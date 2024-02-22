@@ -4,7 +4,6 @@ library("corrplot")
 library("ggplot2")
 library("dplyr")
 rm(list=ls())
-getwd()
 
 rawdata <- read.xlsx("ruvcorrected.xlsx")
 rownames(rawdata)<- rawdata$Name
